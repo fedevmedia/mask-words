@@ -1,0 +1,39 @@
+{
+  "name": "mask-words",
+  "version": "1.0.0",
+  "description": "Filter out list of words to mask",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch \"npm run build\" src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedevmedia/mask-words.git"
+  },
+  "keywords": [
+    "filter",
+    "filtering",
+    "mask",
+    "masking"
+  ],
+  "author": "fedevmedia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedevmedia/mask-words/issues"
+  },
+  "homepage": "https://github.com/fedevmedia/mask-words#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^24.0.0",
+    "watch": "^1.0.2"
+  }
+}
