@@ -1,4 +1,4 @@
-import { maskWords } from ".";
+import maskWords from ".";
 
 test("Mask blacklisted words to asterisks", () =>
   expect(
